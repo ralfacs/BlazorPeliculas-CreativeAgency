@@ -1,0 +1,12 @@
+C:\Proyecto2\BlazorPeliculas\Shared\bin\Debug\net5.0\BlazorPeliculas.Shared.deps.json
+C:\Proyecto2\BlazorPeliculas\Shared\bin\Debug\net5.0\BlazorPeliculas.Shared.dll
+C:\Proyecto2\BlazorPeliculas\Shared\bin\Debug\net5.0\ref\BlazorPeliculas.Shared.dll
+C:\Proyecto2\BlazorPeliculas\Shared\bin\Debug\net5.0\BlazorPeliculas.Shared.pdb
+C:\Proyecto2\BlazorPeliculas\Shared\obj\Debug\net5.0\BlazorPeliculas.Shared.csproj.AssemblyReference.cache
+C:\Proyecto2\BlazorPeliculas\Shared\obj\Debug\net5.0\BlazorPeliculas.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyecto2\BlazorPeliculas\Shared\obj\Debug\net5.0\BlazorPeliculas.Shared.AssemblyInfoInputs.cache
+C:\Proyecto2\BlazorPeliculas\Shared\obj\Debug\net5.0\BlazorPeliculas.Shared.AssemblyInfo.cs
+C:\Proyecto2\BlazorPeliculas\Shared\obj\Debug\net5.0\BlazorPeliculas.Shared.csproj.CoreCompileInputs.cache
+C:\Proyecto2\BlazorPeliculas\Shared\obj\Debug\net5.0\BlazorPeliculas.Shared.dll
+C:\Proyecto2\BlazorPeliculas\Shared\obj\Debug\net5.0\ref\BlazorPeliculas.Shared.dll
+C:\Proyecto2\BlazorPeliculas\Shared\obj\Debug\net5.0\BlazorPeliculas.Shared.pdb

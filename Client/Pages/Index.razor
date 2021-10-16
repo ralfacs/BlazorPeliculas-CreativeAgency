@@ -1,0 +1,36 @@
+﻿@page "/"
+@page "/index"
+@using BlazorPeliculas.Client.Components
+@using BlazorPeliculas.Client.Shared
+@using BlazorPeliculas.Client.Pages
+
+@inject IRepositorio  repositorio
+
+<div>
+    <HeaderComponent/>
+</div>
+<div>
+    <h3>En Cartelera</h3>
+    <ListadoPeliculas Peliculas="EnCartelera" />
+</div>
+
+<div>
+    <h3>Próximos Estrenos</h3>
+    <ListadoPeliculas Peliculas="FuturosEstrenos" />
+</div>
+
+<div>
+    <FooterComponent />
+</div>
+
+@code {
+    private List<Pelicula> FuturosEstrenos;
+    private List<Pelicula> EnCartelera;
+
+    protected async override Task OnInitializedAsync()
+    {
+        var httpResponse = await repositorio.Get<HomePageDTO>("api/peliculas");
+        FuturosEstrenos = httpResponse.Response.ProximosEstrenos;
+        EnCartelera = httpResponse.Response.PeliculasEnCartelera;
+    }
+}
